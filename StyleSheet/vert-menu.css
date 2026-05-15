@@ -141,8 +141,8 @@ div.title-top:after {
 /* line 52, sass/vertical-responsive-menu.scss */
 nav.vertical_nav_base, nav.vertical_nav {
     font-size: 16px;
-    background: rgba(33, 39, 45, .96);
-    color: #ddd;
+    background: #e5e5e5; /* rgba(33, 39, 45, .96); */
+    color:black; /*  #ddd; */
     text-align: left;
     width: 380px; /* 370px or 380px */
     margin: 0 auto;
@@ -166,13 +166,13 @@ nav.vertical_nav_base {
 .btn_top-menu.js-menu.vertical_nav {
     max-width:400px;
     margin:auto;
-    background:rgba(33, 39, 45, .96);
+    background:#e5e5e5; /* rgba(33, 39, 45, .96); */
     border-top-width:0px;
 }
 @media (hover: hover) {
     .vertical_nav a[href]:hover {
-        color: rgba(33, 39, 45, .93);
-        background-color: #c5ffc5; /* #fff; */
+        /* color: rgba(33, 39, 45, .93); */
+        background-color: #bbb; /* #c5ffc5; /* #fff; */
     }
 }
 .vertical_nav a {
@@ -182,7 +182,7 @@ nav.vertical_nav_base {
     /* font-weight: 500; */
     /* padding: 12px 24px; */
     text-decoration: none;
-    color: #ddd;
+    color: black; /* #ddd; */
     /* padding-left: 5px; */
     display:block;
 }
@@ -192,12 +192,12 @@ nav.vertical_nav_base {
 
 .vertical_nav div.mtitle1, .vertical_nav div.mtitle1 > a {
      /* #cadf29; */
-    color: #eaef29;
+    /* color: #eaef29; */
     padding-left: 0px;
     padding-top: 5px;
 }
 .vertical_nav div.mtitle1.non-hist-arg > a {
-    color:#ddd;
+    color:black; /* #ddd; */
 }
 .vertical_nav div.mtitle1.non-hist-arg > a.active {
     color:black;
@@ -220,7 +220,7 @@ ul.header-top-menu {
     padding-left: 2px;
 }
 ul.header-top-menu > li > div.mtitle1 > a  {
-    color:#cadf29;
+    /* color:#cadf29; */
     font-weight: normal;
 }
 
@@ -301,7 +301,7 @@ div.mtitle2 {
     line-height: 30px;
     font-family: "FontAwesome";
     content: "\f0d7";
-    color: white;
+    /* color: black;  white; */
 }
 
 /* Opened menu show arrow menu up*/
@@ -339,10 +339,13 @@ div.mtitle2 {
     /* lm-item */
     background-color: white; /* #e6ffe6;*/
 }
+.js-menu li.menu--item li.sub_menu--item {
+    padding-left:10px;
+}
 
 /* line 113, sass/vertical-responsive-menu.scss */
 .js-menu a.menu--link {
-    color: #ddddaa;
+    color: black;
     display: block;
     overflow: hidden;
     /* font-size: 0.875rem; */
@@ -470,7 +473,7 @@ div.mtitle2 {
     padding-right:20px;
 }
 div.page_sel {
-    background-color: #293949;
+    /* background-color: #ddd; */
     /* background: rgba(33, 39, 45, .96); */
 }
 div.no_page_sel, div.page_sel {
@@ -623,7 +626,7 @@ a.menupartlink {
     /* line 269, sass/vertical-responsive-menu.scss */
     .collapse_menu:hover {
         color: #000;
-        background: #dddddd;
+        background: #ddd;
     }
 
     /* line 274, sass/vertical-responsive-menu.scss */
